@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,700;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="apple-touch-icon" sizes="76x76" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <title>Portfolio</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+<body>
+    <header class="header">
+<div class="container">
+    <div class="header_inner">
+      <div class="user">
+       <img class="user_avatar" src="images/karina57.jpg" alt="">
+       <div class="user_content">
+           <div class="user_name">Karina <br> Rakhmanova</div>
+           <div class="user_prof">Front end Developer</div>
+    </div>
+</div>
+    <div class="nav" id="nav">
+        <a class="nav_link" href="#" data-scroll="#work">work</a>
+        <a class="nav_link" href="#" data-scroll="#about">about me</a>
+        <a class="nav_link" href="#" data-scroll="#blog">blog</a>
+        <a class="nav_link" href="mailto:karinadatsk@gmail.com" >contact</a>
+       
+    </div>
+   </div>
+</div> 
+</header>
+<div class="intro" id="blog">
+    <div class="container">
+        <div class="intro_inner">
+           <div class="intro_content">
+         <h2 class="intro_subtitle">Hello I am</h2>
+         <h1 class="intro_title">Karina Rakhmanova</h1>
+        <div class="intro_text">Front end Developer</div>
+        <div class="social">
+            <a class="social_link" href="https://www.instagram.com/karohjsv?igsh=OHhybTg5bmc0bmF0"><img src="images/instagram.png" alt=""></a>
+            <a class="social_link" href="#"><img src="images/udemy.png" alt=""></a>
+            <a class="social_link" href="#"><img src="images/facebook.png" alt=""></a>
+            <a class="social_link"href="#"><img src="images/linkedin.png" alt=""></a>
+            <a class="social_link" href="#"><img src="images/twitter.png" alt=""></a>
+            <a class="social_link" href="#"><img src="images/youtube.png" alt=""></a>
+        </div>  
+        <button class="btn" data-modal="#modal_resume">SEE MY RESUME</button>
+    </div>
+          
+        </div>
+    </div>
+</div>
+  <div class="works" id="work">
+    <div class="container">
+    <h3 class="work_text" >My works</h3>
+     <div class="portfolio">
+      <div class="work">
+        <img src="images/Снимок экрана 2024-01-15 193610.png" alt="">
+        
+       <div class="work_cat">category: website</div>
+    <div class="work_title">
+    Bakery website
+    <div class="work_date">2023</div>
+
+    </div>
+    <a class="link_cat" href="https://karinadatsiuk.github.io/bakerylove/">see website</a>
+    </div>
+</div>
+
+    </div>
+</div>
+    </div>
+
+<div class="about" id="about">
+    <div class="container">
+        <div class="about_inner"> 
+            <div class="about_content">
+            <h3 class="about_title">ABOUT ME</h3>
+            <h2 class="about_bigtitle">WHO AM I</h2> 
+            <div class="about_text">
+                <p>As a junior front end developer, I am passionate about creating engaging and user-friendly experiences on the web. I have a strong foundation in HTML, CSS, and JavaScript, and I am eager to continue learning and growing in my skills. I am detail-oriented, creative, and dedicated to writing clean, efficient code. I thrive in collaborative environments and am excited to contribute my skills to innovative projects. My goal is to continue honing my technical abilities while staying up-to-date with the latest trends and best practices in web development.</p>
+                <p>In addition to my technical skills, I have a keen eye for design and a deep understanding of user experience principles. I am proficient in using various front-end frameworks and libraries such as React and Bootstrap. I also have experience with version control systems like Git and working in Agile development environments. I am committed to delivering high-quality, accessible, and responsive web solutions that meet the needs of both clients and end-users. I am eager to take on new challenges, expand my knowledge, and contribute to the success of dynamic and forward-thinking projects.</p>
+            </div>
+            <button class="btn" type="button" data-modal="#modal_resume">see my resume</button>
+
+    </div>
+        </div>
+    </div>
+</div>
+<footer class="footer">
+    <div class="container">
+        <div class="footer_inner">
+            <div class="footer_info">
+                <div class="footer_copyright">
+                    &copy; 2024 - Karina Rakhmanova
+                     
+                </div>
+                <a class="footer_link" href="#"><img src="images/linkedin_icon.png" alt=""></a>
+                <a class="footer_link" href="#"><img src="images/facebook_icon.png" alt=""></a>
+                <a class="footer_link" href="#"><img src="images/instagram_icon.png" alt=""></a>
+                <a class="footer_link" href="#"><img src="images/twitter_icon.png" alt=""></a>
+            </div>
+            <div class="footer_nav">
+                
+                <a class="footer_nav_link" href="#" data-scroll="#work">work</a>
+                <a class="footer_nav_link" href="#" data-scroll="#about">about me</a>
+                <a class="footer_nav_link" href="#" data-scroll="#blog">blog</a>
+                <a class="footer_nav_link" href="mailto:karinadatsk@gmail.com" >contact</a>
+       
+
+            </div>
+            <div class="footer_social">
+       
+       </div>
+        </div>
+    </div>
+</footer>
+<div class="modal" id="modal_resume">
+    <div class="modal_dialog">
+        <h3 class="modal_title">RESUME</h3>
+        <img class="modal_photo" src="images/resume.jpg" alt="">
+        <a class="btn btn_edit btn_modal" href="images/resume.jpg" download>Download</a>
+    </div>
+    </div>
+<script src="app.js"></script>
+</body>
+</html>
